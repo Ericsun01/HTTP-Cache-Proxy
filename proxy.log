@@ -1,0 +1,84 @@
+0: CONNECT piazza.com:443 HTTP/1.1 from piazza.com @ Fri Feb 28 23:42:20 2020
+
+1: CONNECT dvngeac8rg9mb.cloudfront.net:443 HTTP/1.1 from dvngeac8rg9mb.cloudfront.net @ Fri Feb 28 23:42:20 2020
+
+2: CONNECT piazza.com:443 HTTP/1.1 from piazza.com @ Fri Feb 28 23:42:20 2020
+
+3: CONNECT piazza.com:443 HTTP/1.1 from piazza.com @ Fri Feb 28 23:42:20 2020
+
+4: CONNECT piazza.com:443 HTTP/1.1 from piazza.com @ Fri Feb 28 23:42:20 2020
+
+5: CONNECT www.gstatic.com:443 HTTP/1.1 from www.gstatic.com @ Fri Feb 28 23:42:20 2020
+
+6: CONNECT dvngeac8rg9mb.cloudfront.net:443 HTTP/1.1 from dvngeac8rg9mb.cloudfront.net @ Fri Feb 28 23:42:20 2020
+
+7: CONNECT push.piazza.com:443 HTTP/1.1 from push.piazza.com @ Fri Feb 28 23:42:21 2020
+
+8: CONNECT gitlab.oit.duke.edu:443 HTTP/1.1 from gitlab.oit.duke.edu @ Fri Feb 28 23:42:23 2020
+
+8: ERROR: select in CONNECT
+9: CONNECT gitlab.oit.duke.edu:443 HTTP/1.1 from gitlab.oit.duke.edu @ Fri Feb 28 23:42:24 2020
+
+10: CONNECT gitlab.oit.duke.edu:443 HTTP/1.1 from gitlab.oit.duke.edu @ Fri Feb 28 23:42:24 2020
+
+11: CONNECT gitlab.oit.duke.edu:443 HTTP/1.1 from gitlab.oit.duke.edu @ Fri Feb 28 23:42:24 2020
+
+10: ERROR: select in CONNECT
+9: ERROR: select in CONNECT
+11: ERROR: select in CONNECT
+12: CONNECT gitlab.oit.duke.edu:443 HTTP/1.1 from gitlab.oit.duke.edu @ Fri Feb 28 23:42:24 2020
+
+13: CONNECT gitlab.oit.duke.edu:443 HTTP/1.1 from gitlab.oit.duke.edu @ Fri Feb 28 23:42:24 2020
+
+15: CONNECT gitlab.oit.duke.edu:443 HTTP/1.1 from gitlab.oit.duke.edu @ Fri Feb 28 23:42:24 2020
+
+14: CONNECT gitlab.oit.duke.edu:443 HTTP/1.1 from gitlab.oit.duke.edu @ Fri Feb 28 23:42:24 2020
+
+12: ERROR: select in CONNECT
+14: ERROR: select in CONNECT
+15: ERROR: select in CONNECT
+16: CONNECT www.youtube-nocookie.com:443 HTTP/1.1 from www.youtube-nocookie.com @ Fri Feb 28 23:42:24 2020
+
+13: ERROR: select in CONNECT
+17: CONNECT www.mocky.io:443 HTTP/1.1 from www.mocky.io @ Fri Feb 28 23:42:26 2020
+
+18: CONNECT www.mocky.io:443 HTTP/1.1 from www.mocky.io @ Fri Feb 28 23:42:26 2020
+
+19: CONNECT www.mocky.io:443 HTTP/1.1 from www.mocky.io @ Fri Feb 28 23:42:26 2020
+
+20: CONNECT www.mocky.io:443 HTTP/1.1 from www.mocky.io @ Fri Feb 28 23:42:26 2020
+
+21: CONNECT www.mocky.io:443 HTTP/1.1 from www.mocky.io @ Fri Feb 28 23:42:26 2020
+
+22: CONNECT www.mocky.io:443 HTTP/1.1 from www.mocky.io @ Fri Feb 28 23:42:27 2020
+
+23: CONNECT platform.twitter.com:443 HTTP/1.1 from platform.twitter.com @ Fri Feb 28 23:42:28 2020
+
+24: CONNECT ssl.google-analytics.com:443 HTTP/1.1 from ssl.google-analytics.com @ Fri Feb 28 23:42:28 2020
+
+25: CONNECT widget.uservoice.com:443 HTTP/1.1 from widget.uservoice.com @ Fri Feb 28 23:42:28 2020
+
+26: CONNECT gitlab.oit.duke.edu:443 HTTP/1.1 from gitlab.oit.duke.edu @ Fri Feb 28 23:42:28 2020
+
+26: ERROR: select in CONNECT
+27: GET http://www.httpwatch.com/httpgallery/chunked/chunkedimage.aspx HTTP/1.1 from www.httpwatch.com @ Fri Feb 28 23:42:29 2020
+
+28: CONNECT gitlab.oit.duke.edu:443 HTTP/1.1 from gitlab.oit.duke.edu @ Fri Feb 28 23:42:29 2020
+
+28: ERROR: select in CONNECT
+27: not in cache
+27: Requesting GET http://www.httpwatch.com/httpgallery/chunked/chunkedimage.aspx HTTP/1.1 fromwww.httpwatch.com
+29: CONNECT syndication.twitter.com:443 HTTP/1.1 from syndication.twitter.com @ Fri Feb 28 23:42:29 2020
+
+30: CONNECT by2.uservoice.com:443 HTTP/1.1 from by2.uservoice.com @ Fri Feb 28 23:42:30 2020
+
+31: GET http://people.duke.edu/~bmr23/ece568/syllabus.pdf HTTP/1.1 from people.duke.edu @ Fri Feb 28 23:42:31 2020
+
+31: not in cache
+31: Requesting GET http://people.duke.edu/~bmr23/ece568/syllabus.pdf HTTP/1.1 frompeople.duke.edu
+32: GET http://people.duke.edu/favicon.ico HTTP/1.1 from people.duke.edu @ Fri Feb 28 23:42:32 2020
+
+32: not in cache
+32: Requesting GET http://people.duke.edu/favicon.ico HTTP/1.1 frompeople.duke.edu
+33: CONNECT secure.gravatar.com:443 HTTP/1.1 from secure.gravatar.com @ Fri Feb 28 23:42:36 2020
+

@@ -1,0 +1,27 @@
+There are some risks our program may encounter:
+
+1. When user does nothing with browser, recv function's return value could be 0 and select 
+function's return value could be less than 0. Our code will print out the error and return.
+2. When visit some websites, the Cache status could be print as "find in cache" and "invalid"
+at the same time.
+3. At first, once we receive the request from client, and recv function's return value could be 0 
+and unable to continue. We adjust it by close the related file descriptor.
+4. Sometimes there are too many socket hung up.
+5. If we try to access an invalid website, there could be many request try to reach it. So their 
+sockets hung up, select "error" in connect and repeat for several times, finally the the browser 
+would give response.
+6. If we try to reach a non-exist website, our proxy will wait for long times. We solve it by adding
+some conditional judge sentences.
+7. If client open too many windows, it would be slow. This problem may be more obvious when he
+try to reach multiple illegal websites at the same time.
+8. We did not specify the size of cache(100) at first and cause some bugs, now fixed.
+9. LRU's cache is extensible.
+10. Take no store, no cache, max_age, max_stale, min_fresh into consideration.
+11. We didn't test ETag's branch, it may cause some problems.
+12. The condition states of revalidation are too many, we are not able to handle all possiblities. But
+we can most of cases (95%).
+13. It is possible that when we implement multi-threads log, there exists race condition and threads 
+may overwrite each other's writting. However, we didn't find this case during any of our tests. 
+
+exception guarantee level: socket: strong guarantee, get: strong guarantee, post: strong guarantee
+, connect: basic guarantee.

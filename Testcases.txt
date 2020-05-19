@@ -1,0 +1,20 @@
+Extra tests for websites:
+https://www.facebook.com/                                             (text+image)
+https://piazza.com/                                                           (text)
+https://store.steampowered.com/search/                        (image+vedio+text)
+https://www.youtube.com/                                               (display several videos)
+https://play.google.com/books/reader?id=-zViCgAAQBAJ&pg=GBS.PA300        (ebook)
+http://httpbin.org/forms/post                                           (post)
+http://people.duke.edu/~bmr23/ece568/class.html         (get)
+http://www.artsci.utoronto.ca/futurestudents                  (max-age)
+https://www.amazon.com/                                                 (multi-thread)
+https://shib.oit.duke.edu/idp/authn                                  (authentication)
+https://www.mocky.io/                                                       (generate custom response)
+
+Abnormal websites:
+www.guugle.com                                                               (legal, but name does not exist)
+https://www.dukehub.duke.edu/                                      (illegal format)
+https://www.darkb.duke.edu/                                           (illegal in both fields)
+
+
+
